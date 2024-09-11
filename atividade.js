@@ -9,9 +9,9 @@ function troca(){
     }else {
         let elemento = document.querySelector('.texto')
         elemento.innerHTML = ""
-        elemento.style.color = ""
-        elemento.style.backgroundColor = ""
-        
+        elemento.style.color = "black"
+        elemento.style.backgroundColor = "transparent"
+        document.querySelector('input').disabled = false
       
     }
 }
